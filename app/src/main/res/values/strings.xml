@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ConvertTextToPdf</string>
+    <string name="convertToText_activity_btGeneratePDF">Generate PDF</string>
+    <string name="skillsDynamic_skillTitle">Title</string>
+    <string name="skillsDynamic_skillName">Name</string>
+    <string name="name">User Name</string>
+    <string name="email">Email Id</string>
+    <string name="add_skills_hint">You can add your skills by clicking add button</string>
+
+</resources>

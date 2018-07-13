@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:weightSum="1">
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/skills_DynamicLayout_fb_remove"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="right"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:padding="10dp"
+        android:src="@drawable/ic_close" />
+
+    <EditText
+        android:id="@+id/skills_DynamicLayout_etSkillTitles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/skillsDynamic_skillTitle"
+        android:background="@drawable/edittextstyle"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:singleLine="true"
+        android:textSize="18sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#000">
+
+    </View>
+
+    <EditText
+        android:id="@+id/skills_DynamicLayout_etSkillName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/skillsDynamic_skillName"
+        android:background="@drawable/edittextstyle"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:textSize="18sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#000">
+
+    </View>
+
+
+</LinearLayout>
